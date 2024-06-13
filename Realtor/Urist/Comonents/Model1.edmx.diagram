@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="73f44ee5dfff4ce2b9a1b6711de44631" Name="Diagram1">
+        <EntityTypeShape EntityType="DemoDbModel.order" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.orderpersonlist" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.person" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.personerole" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.shift" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.user" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.userlist" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoDbModel.userrole" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DemoDbModel.orderpersonlist___fk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDbModel.orderpersonlist___fk" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDbModel.user___fk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDbModel.userlist___fk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDbModel.user___fk" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoDbModel.userlist___fk" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
